@@ -1,6 +1,6 @@
 window.onload=function(){
 /////////////////////////////////////////// for popmotion	
-    		const container = popmotion.styler(document.querySelector('.container'));
+    		const container = popmotion.styler(document.querySelector('#containerdiv'));
     			
 	popmotion.tween({ 
     	from: { 
