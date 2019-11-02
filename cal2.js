@@ -1,5 +1,5 @@
 
-    		const container = popmotion.styler(document.querySelector('.container'));
+    		const contnr = popmotion.styler(document.querySelector('.container'));
 	
 
 	popmotion.tween({ 
@@ -16,4 +16,4 @@
 		x:00
     		},
     	duration: 1000
-	}).start(container.set);
+	}).start(contnr.set);
