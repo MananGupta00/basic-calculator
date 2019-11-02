@@ -4,27 +4,33 @@
 }
 
 .container{
-	margin-left: 500;
-	margin-right: 50;
+	display: flex;
+	flex-direction: column;
+	border: solid 2px grey;
+	margin-left: 30%;
+	margin-right: 10%;
 }
 
 .result {
-	
+	border: solid 2px grey;
+	height: 50px;
+	margin-bottom: 5;
 	width: 190;
 
+	overflow: auto;
 	text-align: right;
 	font-size: 25px;
 	padding-right: 10px;
 	padding-top: 10px;
 	background-color:#000000;
-	height : 30px;
-	color:#ffffff
+	
+	color:#ffffff;
 }
 
 .body {
 	width : 200;
 	background-color : #000000;
-	
+	border: solid 2px grey;
 }
 
 .cbut {
