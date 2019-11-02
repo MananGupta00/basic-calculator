@@ -1,42 +1,34 @@
 window.onload=function(){
 /////////////////////////////////////////// for popmotion	
-    		
+ 		
 const contnr = popmotion.styler(document.querySelector('.container'));
 
-	
-
-	popmotion.tween({
+		popmotion.tween({
  
     	from: {
  
-        	scale: -1,
+        	scale: 0,
 
 		opacity: 0,
 
-		y:-200,
-
 		x: -500
-
+,
    	 	},
 
-   	 to: {
+   	 to: {	
  
     	    	scale: 1,
 
 		opacity: 1,
-
-		y:00,
-
 		x:00
- 
+ ,rotate: 180
    		},
 
     	duration: 1000
+,
 	}).start(contnr.set);
 
-
-///////////////////////////////////////////
-	
+////////////////////////////////////////////////////////////////////////////
 	
 
 start();
