@@ -1,3 +1,13 @@
+.bigContainer{
+	display: flex;
+	flex-direction: row;
+}
+
+.container{
+	margin-left: 500;
+	margin-right: 50;
+}
+
 .result {
 	
 	width: 190;
@@ -19,8 +29,9 @@
 
 .cbut {
 	background-color: #fff111;
-	border: none;
-	width : 23.6%;
+	margin-left:1%;
+	//border: 2px;
+	width : 22.8%;
 	height : 30px;
 	margin-bottom : 4px ;
 }
@@ -38,9 +49,10 @@
 
 .opbut {
 	background-color: #111fff;
-	border: none;
+	//border: 2px;
 	height : 30px;
-	width : 20.25%;
+	width : 19.35%;
+	margin-left: 1%;
 	margin-bottom : 4px ;
 }
 
@@ -55,9 +67,13 @@
 }
 
 #c {
-	width : 49.2%;
+	width : 48.8%;
 }
 
 #zero {
-	width : 75.2%;
+	width : 74.5%;
+}
+
+.present{
+	font-size: 40;
 }
