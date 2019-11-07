@@ -1,4 +1,10 @@
-				const ball = document.querySelector('.container');
+
+
+
+
+window.onload=function(){
+/////////////////////////////////////////// for popmotion	
+ 				const ball = document.querySelector('.container');
 				const divStyler = styler(ball);
 				const ballXY = value({ x: 0, y: 0 }, divStyler.set);
 
@@ -19,12 +25,8 @@
 							// damping: 10
 						}).start(ballXY);
 					});
-
-
-
-window.onload=function(){
-/////////////////////////////////////////// for popmotion	
- 		
+	/////////////////////////////////////////////////////////////////
+	
 const contnr = popmotion.styler(document.querySelector('.container'));
 
 		popmotion.tween({
