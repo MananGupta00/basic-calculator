@@ -4,6 +4,7 @@
 
 //window.onload=function(){
 /////////////////////////////////////////// for popmotion	
+const { styler, spring, listen, pointer, value } = window.popmotion;
  				const ball = document.querySelector('.container');
 				const divStyler = styler(ball);
 				const ballXY = value({ x: 0, y: 0 }, divStyler.set);
