@@ -6,7 +6,7 @@ window.onload=function(){
 /////////////////////////////////////////// for popmotion	
  				const ball = document.querySelector('.container');
 				const divStyler = popmotion.styler(ball);
-				const ballXY = value({ x: 0, y: 0 }, divStyler.set);
+				const ballXY = popmotion.value({ x: 0, y: 0 }, divStyler.set);
 
 				listen(ball, 'mousedown touchstart')
 					.start((e) => {
